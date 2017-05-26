@@ -34,12 +34,12 @@ namespace Example06
             Random random = new Random();
             List<Product> shoppingCart = new List<Product>();
 
-            for(var count = 1; count <= 10; count ++)
+            for (var count = 1; count <= 10; count++)
             {
                 var index = random.Next(0, products.Length); // 0 - 4 但是它產生 0-3 因為機率不會產生到100%
                 shoppingCart.Add(products[index]);
-                Console.ReadLine(products[index].Name);
-
+                Console.WriteLine(products[index].Name);
+            }
         }
     }
 }
