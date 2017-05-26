@@ -1,0 +1,6 @@
+D:\CS282-Homeworks\Lecture02-Example\Example04\bin\Debug\Example04.exe.config
+D:\CS282-Homeworks\Lecture02-Example\Example04\bin\Debug\Example04.exe
+D:\CS282-Homeworks\Lecture02-Example\Example04\bin\Debug\Example04.pdb
+D:\CS282-Homeworks\Lecture02-Example\Example04\obj\Debug\Example04.csprojResolveAssemblyReference.cache
+D:\CS282-Homeworks\Lecture02-Example\Example04\obj\Debug\Example04.exe
+D:\CS282-Homeworks\Lecture02-Example\Example04\obj\Debug\Example04.pdb
