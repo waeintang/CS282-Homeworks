@@ -1,0 +1,4 @@
+C:\CS282-Homeworks\WeatherStationLibrary\WeatherStationLibrary\bin\Debug\WeatherStationLibrary.dll
+C:\CS282-Homeworks\WeatherStationLibrary\WeatherStationLibrary\bin\Debug\WeatherStationLibrary.pdb
+C:\CS282-Homeworks\WeatherStationLibrary\WeatherStationLibrary\obj\Debug\WeatherStationLibrary.dll
+C:\CS282-Homeworks\WeatherStationLibrary\WeatherStationLibrary\obj\Debug\WeatherStationLibrary.pdb

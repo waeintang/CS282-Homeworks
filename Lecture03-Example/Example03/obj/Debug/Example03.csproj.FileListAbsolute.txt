@@ -1,0 +1,11 @@
+C:\CS282-Homeworks\Lecture03-Example\Example03\bin\Debug\Example03.exe.config
+C:\CS282-Homeworks\Lecture03-Example\Example03\bin\Debug\Example03.exe
+C:\CS282-Homeworks\Lecture03-Example\Example03\bin\Debug\Example03.pdb
+C:\CS282-Homeworks\Lecture03-Example\Example03\bin\Debug\WeatherStationLibrary.dll
+C:\CS282-Homeworks\Lecture03-Example\Example03\bin\Debug\WeatherStationLibrary.pdb
+C:\CS282-Homeworks\Lecture03-Example\Example03\obj\Debug\Example03.csprojResolveAssemblyReference.cache
+C:\CS282-Homeworks\Lecture03-Example\Example03\obj\Debug\Example03.MainForm.resources
+C:\CS282-Homeworks\Lecture03-Example\Example03\obj\Debug\Example03.Properties.Resources.resources
+C:\CS282-Homeworks\Lecture03-Example\Example03\obj\Debug\Example03.csproj.GenerateResource.Cache
+C:\CS282-Homeworks\Lecture03-Example\Example03\obj\Debug\Example03.exe
+C:\CS282-Homeworks\Lecture03-Example\Example03\obj\Debug\Example03.pdb
