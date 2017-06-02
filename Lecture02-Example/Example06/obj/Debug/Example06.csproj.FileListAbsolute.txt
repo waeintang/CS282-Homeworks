@@ -1,2 +1,3 @@
 D:\CS282-Homeworks\Lecture02-Example\Example06\bin\Debug\Example06.exe.config
 D:\CS282-Homeworks\Lecture02-Example\Example06\obj\Debug\Example06.csprojResolveAssemblyReference.cache
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Lecture02-Example\Example06\bin\Debug\Example06.exe.config

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Example05
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Person person = new Person()
             {
@@ -20,10 +16,8 @@ namespace Example05
                   {
                       X_Axis = 10.0,
                       Y_Axis = 20.0
-
                   }*/
                 Pos = Position.Generate()
-
             };
             //  正常做一次
             // person.ShowPosition();
@@ -41,9 +35,8 @@ namespace Example05
                 person.ShowPosition();
             }
             */
-            // 輸入寬度 
+            // 輸入寬度
             //  person.DrawSquare(200);
-
 
             Console.WriteLine("請輸入要畫的方形的邊長:");
             double width = 0.0;

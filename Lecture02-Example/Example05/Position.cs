@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Example05
 {
@@ -23,7 +19,5 @@ namespace Example05
                 Y_Axis = random.Next(-100, 101)
             };
         }
-
-
     }
 }
