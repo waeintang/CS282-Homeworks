@@ -4,3 +4,6 @@ C:\CSC282-Example\Lecture01-Example\Example03\bin\Debug\Example03.exe
 C:\CSC282-Example\Lecture01-Example\Example03\bin\Debug\Example03.pdb
 C:\CSC282-Example\Lecture01-Example\Example03\obj\Debug\Example03.exe
 C:\CSC282-Example\Lecture01-Example\Example03\obj\Debug\Example03.pdb
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Lecture01-Example\Example03\bin\Debug\Example03.exe.config
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Lecture01-Example\Example03\obj\Debug\Example03.exe
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Lecture01-Example\Example03\obj\Debug\Example03.pdb
