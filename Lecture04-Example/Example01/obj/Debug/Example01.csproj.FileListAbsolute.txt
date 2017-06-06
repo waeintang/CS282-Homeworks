@@ -1,0 +1,9 @@
+C:\CS282-Homeworks\Lecture04-Example\Example01\bin\Debug\Example01.exe.config
+C:\CS282-Homeworks\Lecture04-Example\Example01\bin\Debug\Example01.exe
+C:\CS282-Homeworks\Lecture04-Example\Example01\bin\Debug\Example01.pdb
+C:\CS282-Homeworks\Lecture04-Example\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
+C:\CS282-Homeworks\Lecture04-Example\Example01\obj\Debug\Example01.Form1.resources
+C:\CS282-Homeworks\Lecture04-Example\Example01\obj\Debug\Example01.Properties.Resources.resources
+C:\CS282-Homeworks\Lecture04-Example\Example01\obj\Debug\Example01.csproj.GenerateResource.Cache
+C:\CS282-Homeworks\Lecture04-Example\Example01\obj\Debug\Example01.exe
+C:\CS282-Homeworks\Lecture04-Example\Example01\obj\Debug\Example01.pdb

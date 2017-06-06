@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WeatherStationLibrary;
+
 namespace Example03
 {
     public partial class MainForm : Form
     {
         private WeatherData data;
+
         public MainForm()
         {
             InitializeComponent();
@@ -22,7 +24,6 @@ namespace Example03
                 Humidity = 90.8921,
                 Pressure = 1
             };
-
         }
 
         private void MainForm_Load(object sender, EventArgs e) // when the window is loaded to view
@@ -30,9 +31,6 @@ namespace Example03
             temperatureLabel.Text = "溫度: " + data.Temperature.ToString();
             humidityLabel.Text = "濕度: " + data.Humidity.ToString("#.##"); // "#.##" 格式，強迫小數點後幾位
             pressureLabel.Text = "壓力: " + data.Pressure.ToString("#.#");
-
         }
-
-
     }
 }

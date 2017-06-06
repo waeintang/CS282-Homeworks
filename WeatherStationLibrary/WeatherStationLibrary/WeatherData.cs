@@ -18,5 +18,5 @@ namespace WeatherStationLibrary
                 && this.Humidity == other.Humidity
                 && this.Pressure == other.Pressure;
         }
-    }
+    }//public class WeatherData
 }
