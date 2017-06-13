@@ -6,30 +6,36 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Vector
-    {
-        #region 屬性定義
+    public enum OrderBy
+    { X, Y, Length }
 
-        private double x;
-        private double y;
+    public class Vector : IComparable
+    {
+        #region 屬性的定義
 
         public double X { get; set; }
 
-        private double Y { get; set; }
+        public double Y { get; set; }
+
+        private static Random random;
+
+        public static OrderBy OrderByField;
 
         public double Length
         {
             get
-            { return Math.Sqrt(x * x + y * y); }
+            {
+                return Math.Sqrt(X * X + Y * Y);
+            }
         }
 
-        #endregion 屬性定義
+        #endregion 屬性的定義
 
         #region 建構式
 
         public Vector(double X, double Y)
         {
-            this.X = X; // this.X =>  public class Vector's X
+            this.X = X;
             this.Y = Y;
         }
 
@@ -47,8 +53,60 @@ namespace ClassLibrary1
 
         public void Print()
         {
-            Console.WriteLine
-               ("X:{0}, Y:{1}", this.X, this.Y);
+            Console.WriteLine("X:{0}, Y:{1}, Length:{2}", this.X, this.Y, this.Length);
+        }
+
+        public Vector Clone()
+        {
+            return new Vector(this);
+        }
+
+        public static Vector Generate(double min, double max)
+        {
+            if (Vector.random == null)
+                Vector.random = new Random();
+            double x = random.NextDouble(min, max);
+            double y = random.NextDouble(min, max);
+            return new Vector(x, y);
+        }
+
+        public static Vector[] Generate(int count, double min, double max)
+        {
+            Vector[] vectors = new Vector[count];
+            for (int index = 0; index < vectors.Length; index++)
+            {
+                vectors[index] = Vector.Generate(min, max);
+            }
+            return vectors;
+        }
+
+        public int CompareTo(object obj)
+        {
+            Vector other = obj as Vector;
+            switch (OrderByField)
+            {
+                case OrderBy.X:
+                    return Compare(this.X, other.X);
+
+                case OrderBy.Y:
+                    return Compare(this.Y, other.Y);
+
+                case OrderBy.Length:
+                    return Compare(this.Length, other.Length);
+
+                default:
+                    return Compare(this.Length, other.Length);
+            }
+        }
+
+        private int Compare(double a, double b)
+        {
+            if (a > b)
+                return 1;
+            else if (a < b)
+                return -1;
+            else
+                return 0;
         }
     }
 }
