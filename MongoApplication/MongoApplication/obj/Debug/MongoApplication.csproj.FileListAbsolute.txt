@@ -1,0 +1,17 @@
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoApplication.exe.config
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoApplication.exe
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoApplication.pdb
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Bson.dll
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Driver.Core.dll
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Driver.dll
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Driver.Legacy.dll
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Bson.xml
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Driver.xml
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Driver.Core.xml
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\MongoDB.Driver.Legacy.xml
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\obj\Debug\MongoApplication.csprojResolveAssemblyReference.cache
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\obj\Debug\MongoApplication.exe
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\obj\Debug\MongoApplication.pdb
+C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\Newtonsoft.Json.xml

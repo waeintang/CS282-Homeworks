@@ -1,0 +1,1 @@
+c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\mongoConsole\bin\Debug\mongoConsole.exe.config
