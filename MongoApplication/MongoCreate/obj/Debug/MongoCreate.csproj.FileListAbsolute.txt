@@ -16,3 +16,6 @@ C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\Mongo
 C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\MongoCreate\bin\Debug\MongoDB.Driver.Legacy.xml
 C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\MongoCreate\obj\Debug\MongoCreate.exe
 C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\MongoCreate\obj\Debug\MongoCreate.pdb
+C:\CS282-Homeworks\MongoApplication\MongoCreate\bin\Debug\MongoCreate.exe.config
+C:\CS282-Homeworks\MongoApplication\MongoCreate\obj\Debug\MongoCreate.exe
+C:\CS282-Homeworks\MongoApplication\MongoCreate\obj\Debug\MongoCreate.pdb

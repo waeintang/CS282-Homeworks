@@ -23,6 +23,7 @@ namespace Example03
 
         private void createPokemonButton_Click(object sender, EventArgs e)
         {
+            pokemonSelector.Items[pokemonSelector.Selected.Index];
             PokemonPanel panel = new PokemonPanel();
             Pokemon pokemon = PokemonFactory.Create("Bulbasaur");
             pokemons.Add(pokemon);

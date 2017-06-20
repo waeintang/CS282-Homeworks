@@ -15,3 +15,6 @@ c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\Mongo
 c:\users\vickyhuang\documents\visual studio 2015\Projects\MongoApplication\MongoApplication\obj\Debug\MongoApplication.pdb
 C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\Newtonsoft.Json.dll
 C:\Users\vickyhuang\Documents\Visual Studio 2015\Projects\MongoApplication\MongoApplication\bin\Debug\Newtonsoft.Json.xml
+C:\CS282-Homeworks\MongoApplication\MongoApplication\bin\Debug\MongoApplication.exe.config
+C:\CS282-Homeworks\MongoApplication\MongoApplication\obj\Debug\MongoApplication.exe
+C:\CS282-Homeworks\MongoApplication\MongoApplication\obj\Debug\MongoApplication.pdb

@@ -15,9 +15,12 @@ namespace MongoCreate
 {
     public partial class Form1 : Form
     {
+        DB_connection connection = new DB_connection();
+        IMongoDatabase DB = connection.DB_connet();
         public Form1()
         {
             InitializeComponent();
+          
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
@@ -32,8 +35,8 @@ namespace MongoCreate
 
         private void InsertButton_Click(object sender, EventArgs e)
         {
-            var Client = new MongoClient();
-            var DB = Client.GetDatabase("test1");
+          //  var Client = new MongoClient();
+          //  var DB = Client.GetDatabase("test1");
             var collection = DB.GetCollection<Member>("members");
             var doc = new Member
             {

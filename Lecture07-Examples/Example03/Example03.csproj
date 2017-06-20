@@ -87,11 +87,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\PokemonLibrary\PokemonLibrary\PokemonLibrary.csproj">
-      <Project>{7b936970-ea70-437f-b6e6-60543d4e1b20}</Project>
-      <Name>PokemonLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
