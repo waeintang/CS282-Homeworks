@@ -8,16 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
-using ZXing;                  
-using ZXing.QrCode;          
+using ZXing;
+using ZXing.QrCode;
+
 namespace Pinying_translate
 {
-    
     public partial class Translate_Form : Form
     {
         private Hashtable ht;
         public String save_text;
-        QRcode qr_form;
+        private QRcode qr_form;
+        private string cps;
+
         private void InitializeChineseSymbolHash()
         {
             ht.Add("ㄗㄞˋ", "在再載");
@@ -37,10 +39,10 @@ namespace Pinying_translate
             ht.Add("ㄌㄤˇ", "朗閬硠峎悢誏烺塱");
             ht.Add("ㄔㄨㄥˊ", "重崇虫蟲种翀蝩隀茧痋");
             ht.Add("ㄔㄨㄥ-", "充衝沖舂忡憧珫茺浺蹖祌");
-           
         }
-        Dictionary<string, string> dict = new Dictionary<string, string>();
-        
+
+        private Dictionary<string, string> dict = new Dictionary<string, string>();
+
         private void InitializePinyinDictionary()
         {
             dict.Add("ㄗㄞˋ", "zài");
@@ -60,23 +62,22 @@ namespace Pinying_translate
             dict.Add("ㄌㄤˇ", "朗閬硠峎悢誏烺塱");
             dict.Add("ㄔㄨㄥˊ", "重崇虫蟲种翀蝩隀茧痋");
             dict.Add("ㄔㄨㄥ-", "充衝沖舂忡憧珫茺浺蹖祌");
-
         }
+
         public Translate_Form()
         {
             InitializeComponent();
-            
-            //qr_form.Hide();
-            ht = new System.Collections.Hashtable(); 
-            InitializeChineseSymbolHash();
 
+            //qr_form.Hide();
+            ht = new System.Collections.Hashtable();
+            InitializeChineseSymbolHash();
 
             InitializePinyinDictionary();
         }
 
         private void Translate_button_Click(object sender, EventArgs e)
         {
-            string cps = shengmu_comboBox.Text + jiemu_comboBox.Text + yunmu_comboBox.Text + shengdiao_comboBox.Text;
+            cps = shengmu_comboBox.Text + jiemu_comboBox.Text + yunmu_comboBox.Text + shengdiao_comboBox.Text;
             if (ht.Contains(cps))
             {
                 guozi_textBox.Text = ht[cps] + "";
@@ -85,28 +86,19 @@ namespace Pinying_translate
                 ChineseText_comboBox.Items.Clear();
                 for (int i = 0; i < select.Length; i++) ChineseText_comboBox.Items.Add(select[i]);
             }
-
-           
         }
 
         private void ChineseText_comboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Result_textBox.Text  = ChineseText_comboBox.Text;
-            
+            Result_textBox.Text = ChineseText_comboBox.Text;
         }
 
         private void Save_button_Click(object sender, EventArgs e)
         {
-            //var writer = new BarcodeWriter  //dll裡面可以看到屬性
-            //{
-            //    Format = BarcodeFormat.QR_CODE,
-            //    Options = new QrCodeEncodingOptions //設定大小
-            //    {
-            //        Height = 300,
-            //        Width = 300,
-            //    }
-            //};
-            save_text = Result_textBox.Text;
+            save_text = "國語注音: " + cps + "\r\n" +
+                        "羅馬拼音: " + py_textBox.Text + "\r\n" +
+                        "匹配的國字: " + guozi_textBox.Text + "\r\n" +
+                        "造句: " + Result_textBox.Text + "\r\n";
             qr_form = new QRcode(save_text);
             qr_form.Show();
         }

@@ -6,3 +6,6 @@ C:\CS282-Homeworks\Lecture05-Example\Example01\bin\Debug\WeatherStationLibrary.p
 C:\CS282-Homeworks\Lecture05-Example\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
 C:\CS282-Homeworks\Lecture05-Example\Example01\obj\Debug\Example01.exe
 C:\CS282-Homeworks\Lecture05-Example\Example01\obj\Debug\Example01.pdb
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Lecture05-Example\Example01\bin\Debug\Example01.exe.config
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Lecture05-Example\Example01\obj\Debug\Example01.exe
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Lecture05-Example\Example01\obj\Debug\Example01.pdb

@@ -14,3 +14,19 @@ c:\users\min\documents\visual studio 2017\Projects\FinalProject\Pinying_translat
 c:\users\min\documents\visual studio 2017\Projects\FinalProject\Pinying_translate\bin\Debug\zxing.presentation.pdb
 c:\users\min\documents\visual studio 2017\Projects\FinalProject\Pinying_translate\bin\Debug\zxing.presentation.xml
 c:\users\min\documents\visual studio 2017\Projects\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.Translate_Form.resources
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\Pinying_translate.exe.config
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.exe
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.pdb
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\Pinying_translate.exe
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\Pinying_translate.pdb
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\zxing.dll
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\zxing.presentation.dll
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\zxing.pdb
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\zxing.xml
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\zxing.presentation.pdb
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\bin\Debug\zxing.presentation.xml
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.csprojResolveAssemblyReference.cache
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.Translate_Form.resources
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.Properties.Resources.resources
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.QRcode.resources
+C:\Users\vickyhuang\Desktop\CS282-Homeworks\Final Project\FinalProject\Pinying_translate\obj\Debug\Pinying_translate.csproj.GenerateResource.Cache
