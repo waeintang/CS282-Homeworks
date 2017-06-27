@@ -3,14 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibrary1;
 
 namespace WeatherStationLibrary
 {
-    public class WeatherData
+    public class WeatherData:EventArgs
     {
         private double temperature; // 數字敏感，可能會壞掉，要寫一個接口
         private double humidity;
-        public double pressure;
+        private double pressure;
+        private static Random random;
+        public DateTime Time;
+
+      
+
+        public double Pressure1 //ctrl R E
+        {
+            get { return pressure; }
+            set { pressure = value; }
+        }
 
         public double Humidity
         {
@@ -105,5 +116,20 @@ namespace WeatherStationLibrary
                 && this.Humidity == other.Humidity
                 && this.Pressure == other.Pressure;
         }
+        public static WeatherData Generate()
+        {
+            if (random == null)
+                random = new Random();
+
+            return new WeatherData()
+            {
+                Temperature = random.NextDouble(25.0, 33.0),
+                Humidity = random.NextDouble(80, 100),
+               Pressure = random.NextDouble(0.99,1.0),
+               Time = new DateTime()
+
+            };
+        }
     }//public class WeatherData
+    
 }

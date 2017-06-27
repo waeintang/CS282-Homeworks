@@ -1,0 +1,11 @@
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\bin\Debug\Lecture_Obeserve.exe.config
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\bin\Debug\Lecture_Obeserve.exe
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\bin\Debug\Lecture_Obeserve.pdb
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\bin\Debug\WeatherStationLibrary.dll
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\bin\Debug\WeatherStationLibrary.pdb
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\obj\Debug\Lecture_Obeserve.csprojResolveAssemblyReference.cache
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\obj\Debug\Lecture_Obeserve.Properties.Resources.resources
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\obj\Debug\Lecture_Obeserve.WeatherStation.resources
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\obj\Debug\Lecture_Obeserve.csproj.GenerateResource.Cache
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\obj\Debug\Lecture_Obeserve.exe
+C:\CS282-Homeworks\Lecture10-Examples\Lecture_Obeserve\obj\Debug\Lecture_Obeserve.pdb
